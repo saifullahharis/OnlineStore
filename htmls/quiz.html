@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz</title>
+    <meta name="description" content="Quiz">
+    <meta name="keywords" content="Quiz, quiz, web design, web design project">
+    <meta name="author" content="Thejan Vithanage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/quiz_styles.css">
+    <script src="scripts/script.js" defer ></script>
+    <script src="scripts/quiz_script.js" defer ></script>
+</head>
+<body>
+    <header>
+      <nav class="nav">
+        <div class="logo"><a href ="index.html" aria-label="navigate to home page"><img src="Images/logo.webp" alt="" width="135" height="60"></a></div>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="nav__link ">
+          <a href="index.html">Home</a>
+          <a href="buyproducts.html">Buy</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="comment_form.html">Comments</a>
+          <a href="about_us.html">About Us</a>
+          <a href="Thumnail.html">Gallery</a>
+          <a href="">Sitemap</a>
+        </div>
+      </nav>
+  </header>
+    <div id="wrapper">
+      <div class="container hide" id="quiz-container">
+          <div id="header">
+            <p id="question-no">Question: 1/10</p>
+            <p >Time: <span id="time">60</span></p>
+          </div>
+          <p id="question">Test One</p>
+          <div id="answer-buttons" class="btn-grid">
+            <button type="button" class="btn answr" id="one">Answer 1</button>
+            <button type="button" class="btn answr">Answer 2</button>
+            <button type="button" class="btn answr">Answer 3</button>
+            <button type="button" class="btn answr">Answer 4</button>
+          </div> 
+          <button type="button" class="btn" id="next-btn">Next Question</button>
+          <button type="button" class="btn hide" id="submit-btn">Finish</button>
+      </div>
+      <button type="button" class="btn " id="start-btn">Let's Start</button>
+      <div class="container hide" id="result-wrapper">
+        <h2>Result</h2>
+        <hr>
+        <div id="results"></div>
+        <button type="button" class="btn" id="restart_btn">Restart</button>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; <a href="page_editor_thejan.html">Thejan Vithanage</a></p>
+    </footer>
+</body>
+</html>
